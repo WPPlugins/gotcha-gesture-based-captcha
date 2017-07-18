@@ -1,0 +1,144 @@
+			@font-face
+					{
+						font-family: Arista;
+						src: url(Aristalight.ttf);
+					}
+			
+			#content
+			{				
+				overflow:hidden;
+			}
+			
+			#captcha
+			{
+				background: #fff;
+				background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(100%,#ddd));
+				background: -webkit-linear-gradient(top,#fff 0,#ddd 100%);
+				background: -moz-linear-gradient(top,#fff 0,#ddd 100%);
+				background: -ms-linear-gradient(top,#fff 0,#ddd 100%);
+				background: -o-linear-gradient(top,#fff 0,#ddd 100%);
+				background: linear-gradient(top,#fff 0,#ddd 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#dddddd',GradientType=0);
+				border-left: solid 1px #eee;
+				border-right: solid 1px #eee;
+				border-bottom: solid 1px #ccc;
+				-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+				box-shadow: 0 1px 0 rgba(0,0,0,.1);
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				position: relative;
+				margin-top:2px;
+				margin-left:2px;
+				width:355px;
+				font-family:
+				sans-serif;/*'century gothic';*/
+				font-size:12px;
+				height:244px;
+				padding:3px;				
+				color:#000;
+				/*opacity:0.5;*/
+				/*background:#FFF url(../logo/icon_orange.png) no-repeat 220px 32px;*/
+			}
+			
+			#go_caption
+			{				
+				margin:1px;
+				font-weight:bold;
+				color:#f85838;	
+			}
+			
+			/*#captcha:hover
+			{
+				opacity:1;
+			}*/
+
+			.tomat
+			{
+				position: absolute;				
+				width:60px;
+				height:60px;
+				z-index:99;
+				cursor:move;
+				margin-top:5px;
+				border:solid 1px;
+											
+			}
+			
+			#apel
+			{
+				width:322px;
+				height:140px;
+				border:solid 1px #ccc	;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				/*use this for style no.1*/
+				/*
+				background:#FFF url(../logo/Gotcha_font_logo_watermark.png) no-repeat 60px 22px;
+				background-size:60%;
+				*/
+				/*background:#FFF url(../logo/Gotcha_font_logo.png) no-repeat 260px 125px;
+				background-size:15%;*/
+				margin-bottom:6px;
+			}
+			
+			#apel #intro
+			{
+				position: absolute;
+				width: 319px;
+				height:17px;
+				top: 132px;
+				text-align: center;
+				padding-left: 3px;
+				background: rgba(0, 0, 0, 0.4);
+				color: #FFF;
+			}
+			
+			#apel #intro a{
+				color:#FFF;
+			}
+			
+			#wortel
+			{	
+				position:absolute;					
+				width:20px;
+				height:20px;
+				top:125px;
+				right:7px;
+				z-index:999;
+				background:url(../img/f5.png)  no-repeat;
+				background-size:100%;
+				cursor:pointer;
+			}
+			
+			#power
+			{
+				position: absolute;
+				bottom: -4px;
+				right: 12px;
+				margin: 0;
+				font-size: 9px;
+				color: #f85838;
+				text-decoration: none;
+				text-align: right;
+			}
+			
+			#power img
+			{
+				width:13%;
+				
+			}
+			
+			#verarea
+			{
+				position:absolute;
+				bottom:12px;
+				right:5px;
+				width:350px;
+				height:75px;
+				
+			}
+	
+		
+
